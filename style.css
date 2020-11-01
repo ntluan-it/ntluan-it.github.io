@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    margin-top: 35px;
+    color: rgb(0, 128, 117);
+    font-size: 50px;
+}
+body {
+    background-image: url('teacher.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.postcard{
+    background-image: url(background.jpg);
+    background-size: cover;
+    border: 2px solid violet;
+    width: 620px; 
+    height: 440px; 
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.loichuc{
+    width: 250px;
+    margin: 90px;
+    border: 3px solid yellowgreen;
+    padding: 0px 38px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(6, 36, 13);
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.w-100{
+    margin-top: 150px;
+    width: 300px;
+    margin-left: 21px;
+}
+.w-200{
+    margin-top: -50px;
+    margin-right: 25px;
+    width: 300px;
+}
+.bor-img{
+    border-image: url(border.png) 30% round;
+}
